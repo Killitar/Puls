@@ -1,0 +1,86 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 850px;
+  }
+}
+@media (max-width: 991px) {
+  .container {
+    max-width: 700px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .header {
+    &__logo {
+      width: 220px;
+    }
+  }
+  .promo {
+    &__header {
+      font-size: 39px;
+    }
+    &__subheader {
+      font-size: 22px;
+    }
+  }
+
+  .advantages {
+    &__item {
+      max-width: 215px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 500px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .header {
+    &__logo {
+      width: 220px;
+    }
+
+    &__official {
+      display: none;
+    }
+    &__phone {
+      margin-bottom: 10px;
+    }
+  }
+
+  .promo {
+    padding: 21px 0 60px 0;
+
+    &__wrapper {
+      align-items: center;
+    }
+    &__header {
+      font-size: 39px;
+    }
+    &__subheader {
+      font-size: 22px;
+    }
+  }
+
+  .advantages {
+    padding: 60px 0 60px 0;
+    &__item {
+      max-width: 230px;
+      margin-bottom: 25px;
+    }
+
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+  }
+}
+@media (max-width: 575px) {
+}
