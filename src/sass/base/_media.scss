@@ -7,6 +7,17 @@
   .container {
     max-width: 700px;
   }
+  .prev,
+  .next {
+    display: none;
+  }
+  .carousel {
+    .tns-item {
+      img {
+        width: 700px;
+      }
+    }
+  }
 
   .title {
     font-size: 28px;
@@ -39,6 +50,13 @@
 
   .title {
     font-size: 28px;
+  }
+  .carousel {
+    .tns-item {
+      img {
+        width: 510px;
+      }
+    }
   }
 
   .header {
@@ -89,6 +107,13 @@
   .button {
     &_main {
       width: 250px;
+    }
+  }
+  .carousel {
+    .tns-item {
+      img {
+        width: 250px;
+      }
     }
   }
   .title {
