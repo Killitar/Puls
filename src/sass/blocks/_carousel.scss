@@ -29,9 +29,9 @@
     }
   }
   .tns-nav {
-    position: absolute;
-    left: 50%;
-    transform: translateZ(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     button {
       border-radius: 100%;
       border: black solid 2px;
