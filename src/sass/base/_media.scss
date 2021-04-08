@@ -253,4 +253,17 @@
       }
     }
   }
+
+  .modal {
+    width: 275px;
+    padding-left: 20px;
+    padding-right: 20px;
+    &__close {
+      right: 10px;
+      line-height: 40px;
+    }
+    .feed-form {
+      width: 235px;
+    }
+  }
 }
