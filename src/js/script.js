@@ -116,4 +116,11 @@ $(document).ready(function () {
   validateForms("#order");
 
   $("input[name=phone]").mask("+373 (99) 999-999");
+
+  // Scroll
+  $("a[href^='#']").click(function () {
+    const _href = $(this).attr("href");
+    $("html, body").animate({ scrollTop: $(_href).offset().top + "px" });
+    return false;
+  });
 });
